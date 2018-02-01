@@ -3,12 +3,7 @@ from keras import models
 from keras.datasets import imdb
 import numpy as np
 
-
-def vectorise_sequences(sequences, dimension=10000):
-    results = np.zeros((len(sequences), dimension))
-    for i, sequence in enumerate(sequences):
-        results[i, sequence] = 1.0
-    return results
+from utils import vectorise_sequences
 
 
 (train_data, train_labels), (test_data, test_labels) = imdb.load_data(
