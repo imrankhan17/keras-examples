@@ -3,3 +3,16 @@
 
 # Python generated
 *.pyc
+
+# Jupyter notebooks
+.ipynb_checkpoints/*
+*.ipynb
+
+# Data files
+test/*
+train/*
+cats_and_dogs_small/*
+*.jpg
+
+# Models
+*.h5
