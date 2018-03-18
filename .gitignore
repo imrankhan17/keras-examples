@@ -13,6 +13,7 @@ test/*
 train/*
 cats_and_dogs_small/*
 *.jpg
+*.csv
 
 # Models
 *.h5
